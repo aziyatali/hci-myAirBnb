@@ -36,7 +36,6 @@ body {
   /* css for searchbar class */
   #searchbar{
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
     height: 80px;
     width: 100%;
@@ -94,15 +93,17 @@ body {
 /* css for live anywhere */
 .live{
     margin-top: 100px;
-    margin-left: -110px;
+    margin-left: -10px;
     height: 220px;
     width: 1200px;
-    background-color: rgb(70, 69, 67);
+    /* background-color: rgb(22, 22, 21); */
     position: absolute;
 }
 /* css for outdoor stays*/
 .outdoor{
     border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(22, 22, 24);
     margin-top: 20px;
     margin-left: 35px;
     height: 180px;
@@ -117,6 +118,8 @@ body {
 .unique{
     border-radius: 25px;
     margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(22, 22, 24);
     height: 180px;
     width: 280px;
     display: inline-block;
@@ -129,6 +132,8 @@ body {
 .entire{
     border-radius: 25px;
     margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(22, 22, 24);
     height: 180px;
     width: 280px;
     display: inline-block;
@@ -141,6 +146,8 @@ body {
 .pets{
     border-radius: 25px;
     margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(22, 22, 24);
     height: 180px;
     width: 280px;
     display: inline-block;
@@ -155,9 +162,10 @@ body {
 /* css for live anywhere */
 .live-p{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    margin-left: 25px;
     height: 20px;
     width: 1200px;
+    font-size: large;
     position: absolute;
 }
 /* css for outdoor stays*/
@@ -194,4 +202,49 @@ body {
     height: 180px;
     width: 280px;
     display: inline-block;
+}
+
+/* css for hosting div */
+.try-hosting{
+    margin: 50px;
+    margin-top: 150px;
+    height: 400px;
+    width: 1100px;
+    background-color: cornsilk;
+}
+/* css for text on the host */
+.host-text{
+    padding-top: 20px;
+    margin-top: 150px;
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url("host-image.jpg");
+    float: left;
+}
+
+/* css for image on the host div */
+.host-image{
+    padding-top: 20px;
+    margin-top: 150px;
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url("host-image2.jpg");
+    float: left;
+
+}
+
+/* css for host larger text */
+
+.span-text-large{
+    color: cornsilk;
+    font-size: xx-large;
+}
+
+/*  css for smaller texts */
+.span-text-small{
+    color: cornsilk;
+    font-size: large;
+
 }
