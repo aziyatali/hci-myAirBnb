@@ -239,12 +239,26 @@ body {
 
 .span-text-large{
     color: cornsilk;
-    font-size: xx-large;
+    font-size: 50px;
+    margin-left: 160px;
+    display: block;
 }
 
 /*  css for smaller texts */
 .span-text-small{
     color: cornsilk;
-    font-size: large;
+    font-size: 20px;
+    margin: 30px;
+    display: block;
 
+}
+
+/* css for learn more button in span */
+.span-button{
+    height:50px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: -15px;
+    border-radius: 10px;
+    font-weight: bold;
 }

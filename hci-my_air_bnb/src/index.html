@@ -9,14 +9,19 @@
 </head>
 <body>
 
-    <!-- creating header for main page -->
+    <!-- created preheader, to give info about COVID safety -->
     <div class="preheader">
 
           <a class="safety" href="https://www.airbnb.com/d/covidsafety">
               Get the latest on our COVID-19 response
           </a>
     </div>
-  
+    
+    <!-- HTML code for search div,
+    number of users,
+    checkin and checkout dates
+    
+    Unfortunatly, checkin, location, checkout features are not functional for now-->
     <div id="searchbar">
       <div class="searchbar">
         <form id="searchbar-form" action="/s">
@@ -82,8 +87,7 @@
     
   </div>
 
-
-    <!-- css for header -->
+    <!-- HTML code for header and welcome the users -->
     <div class="header">
         <div class="welcome-text">
           <p>
@@ -94,9 +98,11 @@
           </p>
         </div>
     </div>
-    <!-- search bar button -->
-  
-  
+
+    
+    <!-- HTML code for live anywhere div
+    it contains types of stays like outdoor, unique, pets allowed 
+    entire apartment -->
     <div class="live">
       <!-- each entire div is clickable, and open new window
       Links are pointed to original airbnb website -->
@@ -117,6 +123,8 @@
         &nbsp;
       </div>
 
+      <!-- HTML code for Live Anywhere text before it's content -->
+      <!-- HTML code for texts behind the Live Anywhere -->
       <div class="live-p">
           <div class="outdoor-p">
             <span class="screen-reader-only">
@@ -144,6 +152,7 @@
 
       </div>
 
+      <!-- HTML code for Try hosting part -->
       <div class="try-hosting">
           <div class="host-text">
                           
@@ -154,6 +163,13 @@
               <span class="span-text-small">
                 Earn extra income and unlock new opportunities by sharing your space
               </span>
+
+              <!-- <a href="https://www.airbnb.com/become-a-host">
+                <button class="span-button">Learn More</button>
+            </a> -->
+              <form action="https://www.airbnb.com/host/homes?locale=en">
+                  <input class="span-button" type="submit" value="Learn More" />
+              </form>
           </div>
 
           <div class="host-image">
